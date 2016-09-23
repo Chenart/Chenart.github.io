@@ -171,3 +171,12 @@ table {
 	max-height: 600px;
 	max-width: 500px;
 }
+
+.sites_img {
+	min-width: 262px;
+	min-height: 180px;
+	max-width: 800px;
+	max-height: 700px;
+	width: 100%;
+	margin-bottom: 2px;
+}
