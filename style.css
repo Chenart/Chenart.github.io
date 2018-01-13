@@ -22,35 +22,37 @@ a {
   padding-top: 150px;
   max-width: 700px;
   margin: auto;
-  font-family: 'Raleway', sans-serif;
-  font-size: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  color: #5d5e60;
   /*box-shadow: 0px 0px 20px #d1d3d6;
 border-radius: 15px;*/}
 
   .main-content .links {
-    font-size: 20px; }
+    font-size: 20px;
+    padding-left: 100px;}
   .main-content .tagline {
     font-size: 40px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;}
   .main-content .intro {
-    font-size: 15px;
-    margin: 40 0 40 0;
+    font-size: 18px;
+    margin: 40 0 10 0;
   }
   .main-content .projects-section {
-    color: #373e49;
+    color: #5d5e60;
     margin: 20px 0;
     line-height: 2em;
-    font-family: 'Raleway';
+    font-family: 'Roboto';
     font-size: 14px;
     padding: 25px;
 
-    box-shadow: 0px 0px 20px #d1d3d6;
+    box-shadow: 0px 0px 20px #dbdde0;
     border-radius: 0px;}
   .main-content .projects-section:hover {
     transition-duration: 300ms;
 
-    box-shadow: 0px 0px 20px #b8babc;
+    box-shadow: 0px 0px 20px #c2c4c6;
     }
     .main-content .projects-section .section-head {
       font-size: 20px;
@@ -59,10 +61,17 @@ border-radius: 15px;*/}
       font-weight: 400; }
 
 .links {
-  padding: 40px 0; }
+  padding: 20px 0; }
   .links .link {
     display: inline-block;
     margin-right: 20px; }
+
+  hr {
+      margin-top: 0px;
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+  }
 
 @keyframes fadein {
     from { opacity: 0; }
