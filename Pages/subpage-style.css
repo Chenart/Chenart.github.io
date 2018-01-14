@@ -18,6 +18,10 @@ a {
     color: #0080FF;
     text-decoration: none; }
 
+ul {
+  margin-top: 5px;
+}
+
 .content {
   padding: 50px;
   padding-top: 150px;
@@ -40,6 +44,15 @@ border-radius: 15px;*/}
   .content .project-details {
     padding-top: 0px;
     font-weight: 400;}
+    .content .project-details .section {
+      margin-top: 30px;
+    }
+    .content .project-details .section-header {
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;*/
+      padding-bottom: 10px;
+      font-weight: 400;
+      color: #5d5d60;}
 
 .button {
   margin: auto;
