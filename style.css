@@ -1,5 +1,4 @@
 * {
-  font-family: 'Raleway', sans-serif;
   -webkit-animation: fadein 0.8s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 0.8s; /* Firefox < 16 */
       -ms-animation: fadein 0.8s; /* Internet Explorer */
@@ -8,7 +7,8 @@
 
 a {
   color: #D8383D;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -22,52 +22,58 @@ a {
   padding-top: 150px;
   max-width: 700px;
   margin: auto;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   font-size: 15px;
-  color: #5d5e60;
   /*box-shadow: 0px 0px 20px #d1d3d6;
 border-radius: 15px;*/}
 
-  .main-content .links {
+  .main-content .link-bar {
     font-size: 20px;
     padding-left: 100px;}
   .main-content .tagline {
     font-size: 40px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;}
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: #5d5d60;}
   .main-content .intro {
     font-size: 15px;
-    margin: 30 0 10 0;
+    margin: 25 0 30 0;
+    font-weight: 400;
   }
-  .main-content .projects-section {
-    color: #5d5e60;
+  .main-content .project-card {
+    color: #454547;
     margin: 20px 0;
     line-height: 2em;
-    font-family: 'Roboto';
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 14px;
     padding: 25px;
 
     box-shadow: 0px 0px 20px #dbdde0;
     border-radius: 0px;}
-  .main-content .projects-section:hover {
+  .main-content .project-card:hover {
     transition-duration: 300ms;
-
     box-shadow: 0px 0px 20px #c2c4c6;
     }
-    .main-content .projects-section .section-head {
+    .main-content .project-card .card-header {
       font-size: 20px;
       font-family: 'Roboto', sans-serif;*/
-      margin: 10px 0;
-      font-weight: 400; }
+      margin: 10px 0 0 0;
+      padding-bottom: 10px;
+      font-weight: 400;
+      color: #5d5d60;}
+    }
 
-.links {
+.link-bar {
   padding: 20px 0; }
-  .links .link {
+  .link-bar .link {
     display: inline-block;
-    margin-right: 20px; }
+    margin-right: 20px;
+    font-size: 18px;}
 
   hr {
-      margin-top: 0px;
+      margin-top: 20px;
       margin-bottom: 60px;
       margin-left: auto;
       margin-right: auto;
