@@ -68,11 +68,11 @@
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 300ms;
-    transition-duration: 300ms;
+    transition-duration: 400ms;
     -webkit-transition-property: transform;
     transition-property: transform;}
     .main-content .category .link-item:hover {
-        transition-duration: 300ms;
+        transition-duration: 400ms;
         -webkit-transform: scale(1.01);
         transform: scale(1.01);}
     .main-content .category .link-item img {
