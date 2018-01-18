@@ -24,7 +24,7 @@
                   I worked in a team to build the Electromechanical Experimental
                   Control System (EMECS). Our goal was to create a system that
                   would stabilize a rocket payload during launch, as large accelerations
-                  and vibrations can damage less-durable payloads.
+                  and vibrations can damage delicate payloads.
 
                   <br><br>
                   After a number of failed designs, we found success using
@@ -48,17 +48,92 @@
             <div class="project-details">
                 <div class="section">
                     <div class="section-header">Final System</div>
+                        Our final system is in the photo below.
+                        It consists of a main chamber, which is where we would put an object
+                        that would be transported to space. For our demonstration system, we used
+                        the cylindrical steel mass shown as a "dummy payload". The mass flots
+                        on top of the ER fluid.
+                        <br><br>
+                        The side chambers contain ER fluid and have conducting walls,
+                        to which we apply a voltage (applied via the attached leads shown)
+                        to control the ER fluid.
+                        <br><br>
+                        Below: the physical system. Scroll down for an explanation of the mechanism.
+                        <img src="../images/emecs-final.JPG">
+                        The damping mechanism is an idea I thought of after reading
+                        research literature on ER fluid stabilizer systems. In this
+                        design, the object we would like to stabilize floats on top of
+                        ER fluid (we separate the two with a piston cap) in a main chamber.
+                        Side chambers with conducting walls allow the ER fluid to be
+                        displaced from the main chamber.
+                        <br><br>
+                        In simplest terms, our stabilizing mechanism works like this:
+                        <ol>
+                          <li> Acceleration causes the object to move downwards in the
+                            main chamber, causing fluid in the side chambers to displace up.
+                          <li> As this happens, we apply a voltage (200+ V) across the parallel plates to create
+                            regions of high viscosity in the ER fluid.
+                          <li> This impedes the fluid's ability to displace up the side chambers,
+                            causing the object's downward movement to be impeded. We thus achieve damping.
+                        </ol>
+                        <br>
+                        As a team mate rightly pointed out, our chamber must be rectangular,
+                        not circular, to avoid radial cancellations of the electric fields
+                        between our parallel plates.
 
+                        <img src="../images/erf-sketch.JPG">
 
-
-                  </div>
+                        Note also that our system is only designed to damp downwards movements,
+                        which are the principal movements during rocket launch. Our system is not
+                        designed to handle damping in cases where the payload is ejected from
+                        rocket or experiences large decelerations when a parachute is deployed.
 
                 <div class="section">
                     <div class="section-header">Experimentation and Prototyping</div>
+                    My main role involved validating our design's ability to control
+                    ER fluid. This ability depends on a large number of factors, including
+                    fluid properties, applied voltage, distance between parallel plates, and area
+                    of application. As a result, I devised a number of tests, experiment jigs, and
+                    low-fidelity prototypes.
+
+                    <br><br>
+                    Notable work:
+                    <ul>
+                      <li> Used Autodesk Inventor to model and 3D print a Ford viscosity testing cup because
+                           ordering one was too expensive. I found the required dimensions online.</li>
+                      <li> Devised experiments and built jigs to characterize viscosity and voltage response of
+                           different ER fluids, and find the best fluid to use.</li>
+                      <li> Used the tests to define voltage and mechanical requirements for the final system.</li>
+                      <li> Built mechanical system prototypes (machining and hand tools, soldering)</li>
+                      <li> Researching literature to understand ER fluid.</li>
+                    </ul>
+                    <br>
+                    Below: A test jig I assembled for an experiment. The orange object is the
+                    Ford cup I designed. We would measure the time it takes for a specific
+                    ER fluid to drain. I also made the ER fluid: in our case, I used starch mixed
+                    in silicone oil, and conducted tests to find the best mixture ratio.
+
+                    <img src="../images/er-test2.JPG">
+
+                    Below: A late-stage prototype I helped build. My team mate modelled and 3D printed
+                    the white plastic body. I made and installed the parallel plates and soldered on the wires.
+                    We found that the wires would not adhere to the copper plates well, so we later used epoxy
+                    to secure them. <!-- check -->
+                    <img src="../images/emecs-late2.JPG">
+
+                    Our parallel plates
+
+                    Another problem for us was power source. We had enough space to generate
+                    roughly 200 V, but for our system to work properly we needed at least 700-800 V.
+
+                    I suggested us buying or making a voltage multiplier.
+
+
+
+
                     <!-- MENTION THE ARDUINO WORK TO TEST -->
-                      <img src="../images/er-test2.JPG">
-                      <img src="../images/emecs-late2.JPG">
-                      <img src="../images/emecs-final.JPG">
+
+
                       <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/oS0OcDxtdlQ?ecver=2" width="480" height="360" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
                   </div>
 
