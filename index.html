@@ -1,171 +1,52 @@
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112596604-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'UA-112596604-1');
-        </script>
+<head>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <title>Arthur Chen</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular|Roboto:medium,black" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  gtag('config', 'UA-112596604-1');
+  </script>
 
-        <!-- SEO -->
-        <meta name="description" content="Arthur Chen's online portfolio.">
-        <meta name="keyword" content="arthur, chen">
-        <link rel="stylesheet" href="./style.css"> <!-- . makes us go one level up -->
-    </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index-new.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" rel="stylesheet">
+</head>
 
-    <body>
-        <div class="main-content">
+<body id="test">
 
-              <div class="tagline">
-                  Design Thinking. Global impact.
-                </div>
+  <div class="main-content">
+    <div class="intro">
+      <h1>Hi, I'm Arthur Chen.</h1>
+      <b><p>I build mechatronics products and front-end applications.</p></b>
+      <p>In my spare time, I research big problems to tackle for my next venture.</p>
+      <br/>
+      <p>My email is arthur.chen.ubc@gmail.com. Let's talk!</p>
+    </div>
 
-              <div class="intro">
-                  <!--<strong style="font-size: 20px;">I am</strong>-->
-                  <div style="margin-bottom: 0px; font-size: 18px;"><strong>Hi, I'm Arthur Chen. This is my portfolio.</strong></div> <br>
-                  I'm passionate about cutting-edge technology and global sustainability.<br>
-                  Currently a junior studying Engineering Physics (Mechatronics Engineering & Honours Physics) at UBC.
 
-                </div>
-                <div class="link-bar">
-                    <div class="link"><a href="https://github.com/Chenart" target="_blank">github</a></div>
-                    <div class="link"><a href="https://www.linkedin.com/in/chenart/" target="_blank">linkedin</a></div>
-                    <div class="link"><a href="http://bit.ly/2FFRkJh" target="_blank">resume</a></div>
-                    <div class="link"><a href="arthur.chen.ubc@gmail.com" target="_blank">contact</a></div>
-                </div>
-                <hr>
+    <div class="links">
+      <a href="https://drive.google.com/file/d/1IryssnSmflfebs0ghE63JqkCfJvzYzDt/view?usp=sharing" target="_blank">Resume</a>
+      <a href="https://www.linkedin.com/in/chenart/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Chenart" target="_blank">Github</a>
+      <a href="https://medium.com/@arthurchen_29306" target="_blank">Blog</a>
+    </div>
 
-            <div class="projects">
+    <h3>Hardware Portfolio</h3>
+    <hr/>
 
-                <div class="category">
+    <div class="frame">
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRScTczgTV1GeWsFTe3EDJ47_2VQI6ZWCTZfrxD11SbX0K-6y4D6-N8XCIWN6nlwkZspfwwtpdsqmYa/embed?start=true&loop=false&delayms=2000" frameborder="0" width="750" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
 
-                      <div class="category-header">
-                      Technical Work & Project Experience
-                      </div>
-                        <!-- Write: TRIUMF Internship and include everything to do with TRIUMF -->
+    <h3>Software Portfolio</h3>
+    <hr/>
+    <div class="frame">
+      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSK0thLO-l657smytFNLJIhmeMZtntWmZvzupVkhbriE1o8rwwHVgSUjZQvMPaPcyANXA0vpp8R63P_/embed?start=true&loop=false&delayms=2000" frameborder="0" width="750" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
 
-                      <a href="./pages/triumf.html" target="_blank">
-                      <div class="link-item">
-                          <img src="./images/srf-sim-thumb.PNG" style="height: 50%;">
-                          <div class="info">
-                            <div class="card-header">Simulations Internship</div>
-                            R&D work term at Canada's national nuclear physics lab.</div>
-                        </div>
-                      </a>
 
-                      <a href="./pages/spectre.html" target="_blank">
-                      <div class="link-item">
-                          <img src="./images/spectre-view.JPG">
-                          <div class="info">
-                            <div class="card-header">Spectre</div>
-                            Line-following robot with 2-axis arm, built from scratch.</div>
-                        </div>
-                      </a>
+  </div>
 
-                      <a href="./pages/rocket.html" target="_blank">
-                      <div class="link-item">
-                          <img src="./images/er-test5.JPG">
-                          <div class="info">
-                            <div class="card-header">UBC Rocket</div>
-                            Experimental rocket payload stabilizer.</div>
-                        </div>
-                      </a>
-
-                      <a href="./pages/pulp.html" target="_blank">
-                      <div class="link-item">
-                          <img src="./images/stw.jpg" style="height: 50%;">
-                          <div class="info">
-                            <div class="card-header">[pulp]</div>
-                            Upcycled-cardboard chair for low resource classrooms in Africa</div>
-                        </div>
-                      </a>
-
-                        <!-- Freshman Projects?? "Things I did when I was just starting out"-->
-                        <!--<div class="link-item">
-                            <a href="./pages/freshman.html" target="_blank">Freshman Projects</a> &nbsp;My early projects.</div>
-                          -->
-                        <!-- Freshman Projects
-                        <div class="link-item">
-                            <a href="#">Topological Superconductor Modelling</a>  Computational study of Josephson junction.</div>
-                        <div class="link-item">
-                            <a href="#">Rural Vertical Farming</a>  Feasibility study of powerless vertical farms in rural areas.</div>
-                        -->
-                    </div>
-
-              <div class="category">
-
-                    <div class="category-header">
-                    Impact Projects
-                    </div>
-
-                    <a href="https://changenuity.com/" target="_blank">
-                    <div class="link-item">
-                        <img src="./images/changenuity-landing.PNG">
-                        <div class="info">
-                          <div class="card-header">Changenuity</div>
-                          Freelance platform for global impact projects.</div>
-                      </div>
-                    </a>
-
-                    <a href="./pages/mitbootcamp.html" target="_blank">
-                    <div class="link-item">
-                        <img src="./images/mit-bootcamp-pitch.jpg">
-                        <div class="info">
-                          <div class="card-header">MIT Beyond Food Bootcamp</div>
-                          MIT's startup bootcamp with food & agtech focus.</div>
-                      </div>
-                    </a>
-
-                    <a href="./pages/pulp.html" target="_blank">
-                    <div class="link-item">
-                        <img src="./images/stw.jpg" style="height: 47%;">
-                        <div class="info">
-                          <div class="card-header">[pulp]</div>
-                          Upcycled-cardboard chair for low resource classrooms in Africa</div>
-                      </div>
-                    </a>
-
-                  <!--<div class="link-item">
-                        <a href="./pages/formfit.html" target="_blank">Formfit (Hack)</a> &nbsp;Wearable tech for designing bras that finally fit women.</div>
-                    -->
-                </div>
-
-                <div class="category">
-
-                    <div class="category-header">
-                    Graphic Design Projects
-                    </div>
-
-                    <a href="./pages/digitaldesign.html" target="_blank">
-                    <div class="link-item">
-                        <img src="./images/comet-practice.png">
-                        <div class="info">
-                          <div class="card-header">Digital Work</div>
-                          Select pieces from projects and hobby time.</div>
-                      </div>
-                    </a>
-
-                    <a href="./pages/presentations.html" target="_blank">
-                    <div class="link-item">
-                        <img src="./images/mit-pitch.jpg">
-                        <div class="info">
-                          <div class="card-header">Pitch Decks</div>
-                          Presentations I made and delivered.</div>
-                      </div>
-                    </a>
-
-                </div>
-
-            </div>
-        </div>
-    </body>
-</html>
+</body>
