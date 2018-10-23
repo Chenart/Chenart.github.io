@@ -1,0 +1,132 @@
+body {
+  font-family: Roboto;
+  color: #d74545;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
+}
+
+/* Body fade-in */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0 0 20px 0;
+
+}
+
+h3 {
+  font-weight: 500;
+}
+
+h4 {
+  font-weight: 500;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.intro {
+  margin-bottom: 35px;
+}
+
+hr {
+  width: 750px;
+}
+
+a {
+  border: solid #d74545;
+  padding: 5px 7px 5px 7px;
+  margin: 0 5px 0 5px;
+  text-decoration: none;
+  color: #d74545;
+  transition: padding 0.3s, font-size 0.3s; /* transition timer triggers when color changes */
+} a:hover {
+  padding: 7px 9px 7px 9px;
+  font-size: 17px;
+}
+
+
+.main-content {
+  text-align: center;
+  margin: 150px 0px 0px 0px;
+}
+
+.links {
+  margin-bottom: 50px;
+}
+
+/* iFrame fade-in */
+iframe {
+  margin: 15px 0 50px 0;
+  border: none;
+
+-webkit-animation: fadein-iframe 5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein-iframe 5s; /* Firefox < 16 */
+    -ms-animation: fadein-iframe 5s; /* Internet Explorer */
+     -o-animation: fadein-iframe 5s; /* Opera < 12.1 */
+        animation: fadein-iframe 5s;
+}
+
+/* Body fade-in */
+@keyframes fadein-iframe {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein-iframe {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein-iframe {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein-iframe {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+#spinner-1 {
+
+}
+
+#spinner-2 {
+  p
+}
+
+.frame {
+  background:url(http://www.ajaxload.info/images/exemples/25.gif) center center no-repeat;
+}
